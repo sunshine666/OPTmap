@@ -1,0 +1,5 @@
+0.安装java环境
+1.安装BRITE，生成虚拟网络，btom.py用于BRITE到metis的格式转换
+2.安装metis，gpmetis将虚拟网络划分，change.py用于metis到vnm映射程序的转换
+3.vnm程序，controller.java控制算法设置，Utils.java控制权重设置
+4.start.py，映射程序运行
