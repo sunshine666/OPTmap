@@ -1,4 +1,4 @@
-def ptog(s,p,num):
+def ptog(s,p,num):#metis to vnm
     sg=[]
     f = open(s)
     info = f.readline()
@@ -56,7 +56,7 @@ def ptog(s,p,num):
             f.write(' '+str(key+1)+' '+str(pg[i]['edge'][key]))
         f.write('\n')
         i=i+1   
-def sumk(f1,f2):
+def sumk(f1,f2):#计算K
     f = open(f1)#physical
     info = f.readline()
     alines = f.readlines()
