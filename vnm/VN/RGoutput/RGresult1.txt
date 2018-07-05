@@ -1,0 +1,2 @@
+add 50.brite
+kill 50.brite
