@@ -1,5 +1,5 @@
 import random
-def btom(s,p,num):
+def btom(s,p,num):#brite转metis s源文件 p目标文件 num节点数
     sg=[]
     f = open(s)
     info = f.readline()
@@ -45,7 +45,7 @@ def btom(s,p,num):
             f.write(' '+str(key)+' '+str(sg[i]['edge'][key]))
         f.write('\n')
         i=i+1
-def dnstom(s,p):
+def dnstom(s,p):#dns转metis
     sg=[]
     addr={}
     f = open(s)
